@@ -12,5 +12,26 @@
     "f2_desc": "Speak naturally; Causa corrects your grammar and slang via WhatsApp audio.",
     "f3_title": "Total Immersion",
     "f3_desc": "Available 24/7. Your local friend is always ready for a chat."
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "weekly": {
+      "name": "The Tourist",
+      "price": "$4.99",
+      "period": "/ week",
+      "feat1": "7 days of full access",
+      "feat2": "Real-time corrections",
+      "feat3": "All regional accents"
+    },
+    "monthly": {
+      "name": "The Local",
+      "price": "$14.99",
+      "period": "/ month",
+      "feat1": "Unlimited access",
+      "feat2": "Priority support",
+      "feat3": "Slang & Culture guide",
+      "tag": "Best Value"
+    },
+    "cta": "Get Started"
   }
 }
