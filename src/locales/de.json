@@ -33,5 +33,11 @@
       "tag": "Bester Deal"
     },
     "cta": "Jetzt starten"
+  },
+  "footer": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "whatsapp": "WhatsApp-Chat",
+    "rights": "Alle Rechte vorbehalten."
   }
 }

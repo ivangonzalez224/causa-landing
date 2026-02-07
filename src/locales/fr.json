@@ -33,5 +33,11 @@
       "tag": "Le meilleur choix"
     },
     "cta": "C'est parti"
+  },
+  "footer": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "whatsapp": "Chat WhatsApp",
+    "rights": "Tous droits réservés."
   }
 }

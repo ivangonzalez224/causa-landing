@@ -33,5 +33,11 @@
       "tag": "Best Value"
     },
     "cta": "Get Started"
+  },
+  "footer": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "whatsapp": "WhatsApp Chat",
+    "rights": "All rights reserved."
   }
 }
