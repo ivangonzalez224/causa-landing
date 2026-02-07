@@ -1,7 +1,37 @@
 {
   "hero": {
-    "title": "Arrêtez d'étudier l'espagnol. Parlez comme un local.",
-    "subtitle": "Découvrez Causa, votre nouvel ami sur WhatsApp. Un tuteur qui vous enseigne l'argot régional.",
-    "cta": "Discutez avec Causa maintenant"
+    "title": "Maîtrisez l'espagnol comme si vous y étiez.",
+    "subtitle": "Gagnez en assurance avec Causa. Plongez dans les accents, la culture et l'argot grâce à des conversations naturelles sur WhatsApp pour vous sentir chez vous partout.",
+    "cta": "Discutez avec Causa dès maintenant"
+  },
+  "features": {
+    "title": "Pourquoi choisir Causa ?",
+    "f1_title": "Vrais accents",
+    "f2_title": "Correction instantanée",
+    "f3_title": "Immersion totale",
+    "f1_desc": "Mexicain, argentin, espagnol... faites votre choix. Sans aucune voix robotique.",
+    "f2_desc": "Parlez naturellement ; Causa corrige votre grammaire et votre argot via WhatsApp.",
+    "f3_desc": "Disponible 24h/24. Votre pote local est toujours prêt à discuter."
+  },
+  "pricing": {
+    "title": "Tarifs simples",
+    "weekly": {
+      "name": "Le Touriste",
+      "price": "4,99 €",
+      "period": "/ semaine",
+      "feat1": "7 jours d'accès complet",
+      "feat2": "Corrections en temps réel",
+      "feat3": "Tous les accents régionaux"
+    },
+    "monthly": {
+      "name": "Le Local",
+      "price": "14,99 €",
+      "period": "/ mois",
+      "feat1": "Accès illimité",
+      "feat2": "Support prioritaire",
+      "feat3": "Guide d'argot et culture",
+      "tag": "Le meilleur choix"
+    },
+    "cta": "C'est parti"
   }
 }

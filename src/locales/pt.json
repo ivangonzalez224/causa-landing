@@ -1,7 +1,37 @@
 {
   "hero": {
-    "title": "Pare de estudar espanhol. Comece a falar como um nativo.",
-    "subtitle": "Conheça o Causa, seu novo amigo no WhatsApp. Um tutor que te ensina as gírias regionais.",
-    "cta": "Fale com o Causa agora"
+    "title": "Domine o espanhol do jeito que ele é falado nas ruas.",
+    "subtitle": "Destrave sua confiança com o Causa. Conecte-se com sotaques, cultura e gírias através de conversas naturais no WhatsApp e sinta-se em casa em qualquer lugar.",
+    "cta": "Conversar com o Causa agora"
+  },
+  "features": {
+    "title": "Por que aprender com o Causa?",
+    "f1_title": "Sotaques Reais",
+    "f2_title": "Correção Instantânea",
+    "f3_title": "Imersão Total",
+    "f1_desc": "Escolha entre mexicano, argentino, espanhol e mais. Sem vozes de robô.",
+    "f2_desc": "Fale naturalmente; o Causa corrige sua gramática e gírias via áudio no WhatsApp.",
+    "f3_desc": "Disponível 24/7. Seu 'parça' local está sempre pronto para um papo."
+  },
+  "pricing": {
+    "title": "Preços Simples",
+    "weekly": {
+      "name": "O Turista",
+      "price": "R$ 19,90",
+      "period": "/ semana",
+      "feat1": "7 dias de acesso total",
+      "feat2": "Correções em tempo real",
+      "feat3": "Todos os sotaques regionais"
+    },
+    "monthly": {
+      "name": "O Local",
+      "price": "R$ 59,90",
+      "period": "/ mês",
+      "feat1": "Acesso ilimitado",
+      "feat2": "Suporte prioritário",
+      "feat3": "Guia de gírias e cultura",
+      "tag": "Melhor Custo-Benefício"
+    },
+    "cta": "Começar Agora"
   }
 }

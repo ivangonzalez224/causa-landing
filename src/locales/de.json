@@ -1,7 +1,37 @@
 {
   "hero": {
-    "title": "Hör auf, Spanisch zu lernen. Sprich wie ein Local.",
-    "subtitle": "Lerne Causa kennen, deinen neuen Freund auf WhatsApp. Ein Tutor, der dir regionalen Slang beibringt.",
+    "title": "Spanisch lernen, wie man es wirklich spricht.",
+    "subtitle": "Werde selbstbewusster mit Causa. Tauche ein in Akzente, Kultur und Slang durch natürliche WhatsApp-Chats, damit du dich überall wie zu Hause fühlst.",
     "cta": "Jetzt mit Causa chatten"
+  },
+  "features": {
+    "title": "Warum Causa?",
+    "f1_title": "Echte Akzente",
+    "f2_title": "Sofortige Korrektur",
+    "f3_title": "Volles Eintauchen",
+    "f1_desc": "Wähle zwischen mexikanisch, argentinisch, spanisch und mehr. Keine Roboterstimmen.",
+    "f2_desc": "Sprich ganz ungezwungen; Causa korrigiert Grammatik und Slang per WhatsApp-Audio.",
+    "f3_desc": "Rund um die Uhr verfügbar. Dein lokaler Buddy ist immer bereit für einen Chat."
+  },
+  "pricing": {
+    "title": "Einfache Preise",
+    "weekly": {
+      "name": "Der Tourist",
+      "price": "4,99 €",
+      "period": "/ Woche",
+      "feat1": "7 Tage voller Zugriff",
+      "feat2": "Echtzeit-Korrekturen",
+      "feat3": "Alle regionalen Akzente"
+    },
+    "monthly": {
+      "name": "Der Local",
+      "price": "14,99 €",
+      "period": "/ Monat",
+      "feat1": "Unbegrenzter Zugriff",
+      "feat2": "Prioritäts-Support",
+      "feat3": "Slang- & Kultur-Guide",
+      "tag": "Bester Deal"
+    },
+    "cta": "Jetzt starten"
   }
 }
