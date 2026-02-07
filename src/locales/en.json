@@ -3,5 +3,14 @@
     "title": "Stop studying Spanish. Start speaking like a local.",
     "subtitle": "Meet Causa, your new friend on WhatsApp. A tutor that teaches you regional slang and real culture.",
     "cta": "Chat with Causa now"
+  },
+  "features": {
+    "title": "Why learn with Causa?",
+    "f1_title": "Real Accents",
+    "f1_desc": "Choose between Mexican, Argentinian, Spanish, and more. No robot voices.",
+    "f2_title": "Instant Correction",
+    "f2_desc": "Speak naturally; Causa corrects your grammar and slang via WhatsApp audio.",
+    "f3_title": "Total Immersion",
+    "f3_desc": "Available 24/7. Your local friend is always ready for a chat."
   }
 }
