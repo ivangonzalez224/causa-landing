@@ -39,3 +39,17 @@
   color: white;
   border-color: var(--color-primary);
 }
+
+@media (max-width: 600px) {
+  .header {
+    padding: 0 20px;
+    height: 60px;
+  }
+  .nav {
+    gap: 10px;
+  }
+  .langButton {
+    padding: 4px 8px;
+    font-size: 0.7rem;
+  }
+}
