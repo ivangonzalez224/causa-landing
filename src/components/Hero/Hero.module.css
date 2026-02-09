@@ -36,7 +36,57 @@
   color: var(--color-secondary);
 }
 
+.actionContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Espacio entre el botón y el QR */
+  margin-top: 10px;
+}
+
+.qrContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.qrImage {
+  width: 90px;
+  height: 90px;
+  background: white;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+}
+
+.qrText {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 @media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .qrContainer {
+    display: none;
+  }
+  
+  .actionContainer {
+    justify-content: center;
+    width: 100%;
+  }
+
   .hero {
     padding: 60px 20px;
   }
