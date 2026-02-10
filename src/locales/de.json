@@ -3,7 +3,8 @@
     "title": "Spanisch lernen, wie man es wirklich spricht.",
     "subtitle": "Werde selbstbewusster mit Causa. Tauche ein in Akzente, Kultur und Slang durch natürliche WhatsApp-Chats, damit du dich überall wie zu Hause fühlst.",
     "cta": "Jetzt mit Causa chatten",
-    "scan_me": "Scannen zum Chatten"
+    "scan_me": "Scannen zum Chatten",
+    "trial_text": "7 Tage kostenlos testen · Keine Kreditkarte nötig"
   },
   "features": {
     "title": "Warum Causa?",
@@ -31,9 +32,11 @@
       "feat1": "Unbegrenzter Zugriff",
       "feat2": "Prioritäts-Support",
       "feat3": "Slang- & Kultur-Guide",
-      "tag": "Bester Deal"
+      "tag": "Bester Deal",
+      "cta_trial": "Jetzt kostenlos testen"
     },
-    "cta": "Jetzt starten"
+    "cta": "Jetzt starten",
+    "no_card": "Ohne Bindung, jederzeit kündbar"
   },
   "footer": {
     "features": "Funktionen",

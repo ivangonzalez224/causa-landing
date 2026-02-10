@@ -35,6 +35,9 @@ const Hero = () => {
           <span className={styles.qrText}>{t('hero.scan_me')}</span>
         </div>
       </div>
+      <p className={styles.trialText}>
+        ✨ {t('hero.trial_text')}
+      </p>
     </section>
   );
 };

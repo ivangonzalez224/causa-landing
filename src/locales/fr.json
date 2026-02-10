@@ -3,7 +3,8 @@
     "title": "Maîtrisez l'espagnol comme si vous y étiez.",
     "subtitle": "Gagnez en assurance avec Causa. Plongez dans les accents, la culture et l'argot grâce à des conversations naturelles sur WhatsApp pour vous sentir chez vous partout.",
     "cta": "Discutez avec Causa dès maintenant",
-    "scan_me": "Scannez pour discuter"
+    "scan_me": "Scannez pour discuter",
+    "trial_text": "7 jours d’essai gratuit · Sans carte bancaire"
   },
   "features": {
     "title": "Pourquoi choisir Causa ?",
@@ -31,9 +32,11 @@
       "feat1": "Accès illimité",
       "feat2": "Support prioritaire",
       "feat3": "Guide d'argot et culture",
-      "tag": "Le meilleur choix"
+      "tag": "Le meilleur choix",
+      "cta_trial": "Commencer l’essai gratuit"
     },
-    "cta": "C'est parti"
+    "cta": "C'est parti",
+    "no_card": "Sans engagement, annulez à tout moment"
   },
   "footer": {
     "features": "Fonctionnalités",

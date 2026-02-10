@@ -3,7 +3,8 @@
     "title": "Master Spanish the way locals actually speak.",
     "subtitle": "Unlock your confidence with Causa. Connect with accents, culture, and slang through natural WhatsApp conversations that make you feel at home anywhere.",
     "cta": "Chat with Causa now",
-    "scan_me": "Scan to chat"
+    "scan_me": "Scan to chat",
+    "trial_text": "7-day free trial · No credit card required"
   },
   "features": {
     "title": "Why learn with Causa?",
@@ -31,9 +32,11 @@
       "feat1": "Unlimited access",
       "feat2": "Priority support",
       "feat3": "Slang & Culture guide",
-      "tag": "Best Value"
+      "tag": "Best Value",
+      "cta_trial": "Start Free Trial"
     },
-    "cta": "Get Started"
+    "cta": "Get Started",
+    "no_card": "No commitment, cancel anytime"
   },
   "footer": {
     "features": "Features",

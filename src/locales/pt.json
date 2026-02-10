@@ -3,7 +3,8 @@
     "title": "Domine o espanhol do jeito que ele é falado nas ruas.",
     "subtitle": "Destrave sua confiança com o Causa. Conecte-se com sotaques, cultura e gírias através de conversas naturais no WhatsApp e sinta-se em casa em qualquer lugar.",
     "cta": "Conversar com o Causa agora",
-    "scan_me": "Aponte a câmera"
+    "scan_me": "Aponte a câmera",
+    "trial_text": "7 dias grátis · Sem cartão de crédito"
   },
   "features": {
     "title": "Por que aprender com o Causa?",
@@ -31,9 +32,11 @@
       "feat1": "Acesso ilimitado",
       "feat2": "Suporte prioritário",
       "feat3": "Guia de gírias e cultura",
-      "tag": "Melhor Custo-Benefício"
+      "tag": "Melhor Custo-Benefício",
+      "cta_trial": "Jetzt kostenlos testen"
     },
-    "cta": "Começar Agora"
+    "cta": "Começar Agora",
+    "no_card": "Ohne Bindung, jederzeit kündbar"
   },
   "footer": {
     "features": "Funcionalidades",

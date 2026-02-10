@@ -31,6 +31,10 @@ const Pricing = () => {
           <div className={styles.price}>
             {t('pricing.monthly.price')}<span>{t('pricing.monthly.period')}</span>
           </div>
+          <button className={`${styles.btn} ${styles.btnFeatured}`}>
+            {t('pricing.monthly.cta_trial')} {/* "Empieza tu prueba gratuita" */}
+          </button>
+          <p className={styles.noCardText}>{t('pricing.no_card')}</p>
           <ul className={styles.features}>
             <li><Check size={18} color="#D9A05B" /> {t('pricing.monthly.feat1')}</li>
             <li><Check size={18} color="#D9A05B" /> {t('pricing.monthly.feat2')}</li>
