@@ -43,5 +43,10 @@
     "pricing": "Preise",
     "whatsapp": "WhatsApp-Chat",
     "rights": "Alle Rechte vorbehalten."
+  },
+  "trust": {
+    "trial": "7 Tage voller Zugriff",
+    "no_card": "Ohne Kreditkarte",
+    "cancel": "Kündigung per WhatsApp"
   }
 }

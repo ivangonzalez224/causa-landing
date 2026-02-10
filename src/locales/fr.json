@@ -43,5 +43,10 @@
     "pricing": "Tarifs",
     "whatsapp": "Chat WhatsApp",
     "rights": "Tous droits réservés."
+  },
+  "trust": {
+    "trial": "7 jours d’accès illimité",
+    "no_card": "Sans carte bancaire",
+    "cancel": "Annulez par WhatsApp"
   }
 }
