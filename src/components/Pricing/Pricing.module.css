@@ -94,3 +94,10 @@
 .btnFeatured {
   background: var(--color-accent);
 }
+
+.btnLoading {
+  opacity: 0.6;
+  cursor: not-allowed;
+  text-align: center;
+  padding: 12px;
+}
