@@ -16,27 +16,39 @@
     "f3_desc": "Disponible 24h/24. Votre pote local est toujours prêt à discuter."
   },
   "pricing": {
-    "title": "Tarifs simples",
+    "title": "Tarifs clairs et simples",
     "weekly": {
       "name": "Le Touriste",
-      "price": "4,99 €",
+      "price": "9 $",
       "period": "/ semaine",
       "feat1": "7 jours d'accès complet",
       "feat2": "Corrections en temps réel",
       "feat3": "Tous les accents régionaux"
     },
     "monthly": {
-      "name": "Le Local",
-      "price": "14,99 €",
+      "name": "Le Voyageur",
+      "price": "15 $",
       "period": "/ mois",
-      "feat1": "Accès illimité",
-      "feat2": "Support prioritaire",
-      "feat3": "Guide d'argot et culture",
-      "tag": "Le meilleur choix",
-      "cta_trial": "Commencer l’essai gratuit"
+      "feat1": "Accès illimité un mois durant",
+      "feat2": "Corrections en temps réel",
+      "feat3": "Tous les accents régionaux"
+    },
+    "annual": {
+      "name": "L'Habitant",
+      "price": "99 $",
+      "period": "/ an",
+      "tag": "Meilleure offre · 45 % d'économie",
+      "feat1": "Un an d'accès complet",
+      "feat2": "Assistance prioritaire",
+      "feat3": "Guide d'argot et de culture"
+    },
+    "modal": {
+      "title": "Lance ton expérience Causa sur WhatsApp",
+      "body": "C'est par ici que tu profites de ton essai gratuit. Et dès que tu te sens prêt, tu n'as plus qu'à choisir l'offre qui te convient le mieux.",
+      "cta": "Discuter avec Causa"
     },
     "cta": "C'est parti",
-    "no_card": "Sans engagement, annulez à tout moment"
+    "no_card": "Sans engagement, annulez quand vous voulez"
   },
   "footer": {
     "features": "Fonctionnalités",

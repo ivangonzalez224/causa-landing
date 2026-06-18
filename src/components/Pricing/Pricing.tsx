@@ -1,58 +1,13 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Check } from 'lucide-react';
-import { PayPalButtons, usePayPalScriptReducer } from '@paypal/react-paypal-js';
+import { Check, X } from 'lucide-react';
 import styles from './Pricing.module.css';
 
-const PLAN_ID_WEEKLY  = "P-9PL297959R394170CNIZLQSY";
-const PLAN_ID_MONTHLY = "P-55S73789T3599825LNIZLWEI";
-const PLAN_ID_ANNUAL  = "P-2M475301NS101305MNIZLW7A";
-
-const PayPalSubscribeButton = ({
-  planId,
-  featured = false,
-}: {
-  planId: string;
-  featured?: boolean;
-}) => {
-  const [{ isPending }] = usePayPalScriptReducer();
-
-  if (isPending) {
-    return (
-      <div className={`${styles.btn} ${featured ? styles.btnFeatured : ''} ${styles.btnLoading}`}>
-        Loading...
-      </div>
-    );
-  }
-
-  return (
-    <PayPalButtons
-      style={{
-        shape: "pill",
-        color: featured ? "gold" : "blue",
-        layout: "vertical",
-        label: "subscribe",
-      }}
-      createSubscription={(_data, actions) => {
-        return actions.subscription.create({ plan_id: planId });
-      }}
-      onApprove={(data) => {
-        const subscriptionId = data.subscriptionID;
-        const waMessage = encodeURIComponent(
-          `Hi! I just subscribed to Causa. My subscription ID is: ${subscriptionId}`
-        );
-        window.open(`https://wa.me/51912391253?text=${waMessage}`, '_blank');
-        alert(`¡Suscripción activada! ID: ${subscriptionId}`);
-      }}
-      onError={(err) => {
-        console.error("PayPal error:", err);
-        alert("There was an error processing your payment. Please try again.");
-      }}
-    />
-  );
-};
+const WA_URL = "https://wa.me/51912391253";
 
 const Pricing = () => {
   const { t } = useTranslation();
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <section id="pricing" className={styles.section}>
@@ -60,7 +15,7 @@ const Pricing = () => {
 
       <div className={styles.container}>
 
-        {/* Plan Semanal — $9/week */}
+        {/* Plan Semanal */}
         <div className={styles.card}>
           <span className={styles.planName}>{t('pricing.weekly.name')}</span>
           <div className={styles.price}>
@@ -71,10 +26,12 @@ const Pricing = () => {
             <li><Check size={18} color="#D9A05B" /> {t('pricing.weekly.feat2')}</li>
             <li><Check size={18} color="#D9A05B" /> {t('pricing.weekly.feat3')}</li>
           </ul>
-          <PayPalSubscribeButton planId={PLAN_ID_WEEKLY} />
+          <button className={styles.btn} onClick={() => setShowModal(true)}>
+            {t('pricing.cta')}
+          </button>
         </div>
 
-        {/* Plan Mensual — $15/month */}
+        {/* Plan Mensual */}
         <div className={styles.card}>
           <span className={styles.planName}>{t('pricing.monthly.name')}</span>
           <div className={styles.price}>
@@ -85,10 +42,12 @@ const Pricing = () => {
             <li><Check size={18} color="#D9A05B" /> {t('pricing.monthly.feat2')}</li>
             <li><Check size={18} color="#D9A05B" /> {t('pricing.monthly.feat3')}</li>
           </ul>
-          <PayPalSubscribeButton planId={PLAN_ID_MONTHLY} />
+          <button className={styles.btn} onClick={() => setShowModal(true)}>
+            {t('pricing.cta')}
+          </button>
         </div>
 
-        {/* Plan Anual — $99/year (Destacado) */}
+        {/* Plan Anual (Destacado) */}
         <div className={`${styles.card} ${styles.cardFeatured}`}>
           <div className={styles.badge}>{t('pricing.annual.tag')}</div>
           <span className={styles.planName}>{t('pricing.annual.name')}</span>
@@ -101,10 +60,35 @@ const Pricing = () => {
             <li><Check size={18} color="#D9A05B" /> {t('pricing.annual.feat2')}</li>
             <li><Check size={18} color="#D9A05B" /> {t('pricing.annual.feat3')}</li>
           </ul>
-          <PayPalSubscribeButton planId={PLAN_ID_ANNUAL} featured />
+          <button className={`${styles.btn} ${styles.btnFeatured}`} onClick={() => setShowModal(true)}>
+            {t('pricing.cta')}
+          </button>
         </div>
 
       </div>
+
+      {/* Modal */}
+      {showModal && (
+        <div className={styles.modalOverlay} onClick={() => setShowModal(false)}>
+          <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+            <button className={styles.modalClose} onClick={() => setShowModal(false)}>
+              <X size={20} />
+            </button>
+            <div className={styles.modalIcon}>💬</div>
+            <h3 className={styles.modalTitle}>{t('pricing.modal.title')}</h3>
+            <p className={styles.modalText}>{t('pricing.modal.body')}</p>
+            <a
+              href={WA_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.modalBtn}
+            >
+              {t('pricing.modal.cta')}
+            </a>
+          </div>
+        </div>
+      )}
+
     </section>
   );
 };

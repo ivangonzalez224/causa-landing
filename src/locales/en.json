@@ -19,21 +19,33 @@
     "title": "Simple Pricing",
     "weekly": {
       "name": "The Tourist",
-      "price": "$4.99",
+      "price": "$9",
       "period": "/ week",
       "feat1": "7 days of full access",
       "feat2": "Real-time corrections",
       "feat3": "All regional accents"
     },
     "monthly": {
-      "name": "The Local",
-      "price": "$14.99",
+      "name": "The Traveler",
+      "price": "$15",
       "period": "/ month",
-      "feat1": "Unlimited access",
+      "feat1": "Unlimited monthly access",
+      "feat2": "Real-time corrections",
+      "feat3": "All regional accents"
+    },
+    "annual": {
+      "name": "The Local",
+      "price": "$99",
+      "period": "/ year",
+      "tag": "Best Value · Save 45%",
+      "feat1": "Full year of access",
       "feat2": "Priority support",
-      "feat3": "Slang & Culture guide",
-      "tag": "Best Value",
-      "cta_trial": "Start Free Trial"
+      "feat3": "Slang & Culture guide"
+    },
+    "modal": {
+      "title": "Start your Causa experience on WhatsApp",
+      "body": "From there you can access your free trial and, whenever you're ready, choose the plan that works best for you.",
+      "cta": "Chat with Causa"
     },
     "cta": "Get Started",
     "no_card": "No commitment, cancel anytime"

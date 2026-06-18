@@ -16,27 +16,39 @@
     "f3_desc": "Disponível 24/7. Seu 'parça' local está sempre pronto para um papo."
   },
   "pricing": {
-    "title": "Preços Simples",
+    "title": "Preços simples",
     "weekly": {
       "name": "O Turista",
-      "price": "R$ 19,90",
+      "price": "$9",
       "period": "/ semana",
       "feat1": "7 dias de acesso total",
       "feat2": "Correções em tempo real",
       "feat3": "Todos os sotaques regionais"
     },
     "monthly": {
-      "name": "O Local",
-      "price": "R$ 59,90",
+      "name": "O Viajante",
+      "price": "$15",
       "period": "/ mês",
-      "feat1": "Acesso ilimitado",
-      "feat2": "Suporte prioritário",
-      "feat3": "Guia de gírias e cultura",
-      "tag": "Melhor Custo-Benefício",
-      "cta_trial": "Jetzt kostenlos testen"
+      "feat1": "Acesso mensal ilimitado",
+      "feat2": "Correções em tempo real",
+      "feat3": "Todos os sotaques regionais"
     },
-    "cta": "Começar Agora",
-    "no_card": "Ohne Bindung, jederzeit kündbar"
+    "annual": {
+      "name": "O Local",
+      "price": "$99",
+      "period": "/ ano",
+      "tag": "Melhor Custo-Benefício · Economize 45%",
+      "feat1": "Um ano inteiro de acesso",
+      "feat2": "Suporte prioritário",
+      "feat3": "Guia de gírias e cultura"
+    },
+    "modal": {
+      "title": "Comece sua experiência Causa no WhatsApp",
+      "body": "Por lá você acessa seu teste grátis e, quando quiser, escolhe o plano que mais combina com você.",
+      "cta": "Conversar com a Causa"
+    },
+    "cta": "Começar agora",
+    "no_card": "Sem compromisso, cancele quando quiser"
   },
   "footer": {
     "features": "Funcionalidades",

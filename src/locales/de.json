@@ -16,26 +16,38 @@
     "f3_desc": "Rund um die Uhr verfügbar. Dein lokaler Buddy ist immer bereit für einen Chat."
   },
   "pricing": {
-    "title": "Einfache Preise",
+    "title": "Einfache Preisgestaltung",
     "weekly": {
       "name": "Der Tourist",
-      "price": "4,99 €",
+      "price": "9 $",
       "period": "/ Woche",
       "feat1": "7 Tage voller Zugriff",
       "feat2": "Echtzeit-Korrekturen",
       "feat3": "Alle regionalen Akzente"
     },
     "monthly": {
-      "name": "Der Local",
-      "price": "14,99 €",
+      "name": "Der Reisende",
+      "price": "15 $",
       "period": "/ Monat",
-      "feat1": "Unbegrenzter Zugriff",
-      "feat2": "Prioritäts-Support",
-      "feat3": "Slang- & Kultur-Guide",
-      "tag": "Bester Deal",
-      "cta_trial": "Jetzt kostenlos testen"
+      "feat1": "Unbegrenzter Monatszugang",
+      "feat2": "Echtzeit-Korrekturen",
+      "feat3": "Alle regionalen Akzente"
     },
-    "cta": "Jetzt starten",
+    "annual": {
+      "name": "Der Einheimische",
+      "price": "99 $",
+      "period": "/ Jahr",
+      "tag": "Bester Deal · 45% sparen",
+      "feat1": "Ein ganzes Jahr Zugriff",
+      "feat2": "Priorisierter Support",
+      "feat3": "Umgangssprache & Kultur-Guide"
+    },
+    "modal": {
+      "title": "Starte mit Causa auf WhatsApp",
+      "body": "Hier kannst du deine kostenlose Testphase nutzen und, sobald du bereit bist, den perfekten Plan für dich auswählen.",
+      "cta": "Jetzt mit Causa chatten"
+    },
+    "cta": "Jetzt durchstarten",
     "no_card": "Ohne Bindung, jederzeit kündbar"
   },
   "footer": {
