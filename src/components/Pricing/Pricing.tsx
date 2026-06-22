@@ -1,25 +1,13 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Check, X } from 'lucide-react';
 import styles from './Pricing.module.css';
 
-const WA_NUMBER = "51912391253";
+const WA_URL = "https://wa.me/51912391253";
 
 const Pricing = () => {
   const { t } = useTranslation();
   const [showModal, setShowModal] = useState(false);
-  const [waUrl, setWaUrl] = useState(`https://wa.me/${WA_NUMBER}`);
-
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const phone = params.get('phone');
-
-    const message = phone
-      ? `Hola, quiero suscribirme a Causa. Mi número es ${phone}.`
-      : `Hola, quiero suscribirme a Causa.`;
-
-    setWaUrl(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`);
-  }, []);
 
   return (
     <section id="pricing" className={styles.section}>
@@ -59,7 +47,7 @@ const Pricing = () => {
           </button>
         </div>
 
-        {/* Plan Anual */}
+        {/* Plan Anual (Destacado) */}
         <div className={`${styles.card} ${styles.cardFeatured}`}>
           <div className={styles.badge}>{t('pricing.annual.tag')}</div>
           <span className={styles.planName}>{t('pricing.annual.name')}</span>
@@ -89,8 +77,8 @@ const Pricing = () => {
             <div className={styles.modalIcon}>💬</div>
             <h3 className={styles.modalTitle}>{t('pricing.modal.title')}</h3>
             <p className={styles.modalText}>{t('pricing.modal.body')}</p>
-            
-              href={waUrl}
+            <a
+              href={WA_URL}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.modalBtn}

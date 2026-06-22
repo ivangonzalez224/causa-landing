@@ -4,6 +4,7 @@ import TrustBar from './components/TrustBar/TrustBar';
 import Features from './components/Features/Features';
 import Pricing from './components/Pricing/Pricing';
 import Footer from './components/Footer/Footer';
+import PaymentResult from './components/PaymentResult/PaymentResult';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Pricing />
       </main>
       <Footer />
+      <PaymentResult />
     </>
   );
 }
