@@ -14,7 +14,7 @@ const Header = () => {
     { code: 'en', label: 'EN' },
     { code: 'fr', label: 'FR' },
     { code: 'de', label: 'DE' },
-    { code: 'pt', label: 'PT' }
+    { code: 'pt', label: 'PT' },
   ];
 
   return (

@@ -1,12 +1,12 @@
 :root {
   /* Tu paleta de colores */
-  --color-primary: #2C4A70;   /* Azul profundo (Confianza) */
-  --color-secondary: #D9A05B; /* Dorado (Premium) */
-  --color-bg: #E5E9EC;        /* Gris claro (Fondo) */
-  --color-accent: #E63946;    /* Rojo (CTA/Acción) */
-  --color-highlight: #F4D35E; /* Amarillo (Diversión) */
+  --color-primary: #2c4a70; /* Azul profundo (Confianza) */
+  --color-secondary: #d9a05b; /* Dorado (Premium) */
+  --color-bg: #e5e9ec; /* Gris claro (Fondo) */
+  --color-accent: #e63946; /* Rojo (CTA/Acción) */
+  --color-highlight: #f4d35e; /* Amarillo (Diversión) */
   --color-text: #1a1a1a;
-  
+
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);

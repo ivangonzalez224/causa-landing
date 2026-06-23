@@ -32,7 +32,7 @@
 .cardFeatured {
   border-color: var(--color-secondary);
   transform: scale(1.05);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .badge {
@@ -166,14 +166,16 @@
 
 .modalBtn {
   display: inline-block;
-  background: #25D366;
+  background: #25d366;
   color: #fff;
   font-weight: 600;
   font-size: 1rem;
   padding: 0.85rem 2rem;
   border-radius: 999px;
   text-decoration: none;
-  transition: background 0.2s, transform 0.1s;
+  transition:
+    background 0.2s,
+    transform 0.1s;
 }
 
 .modalBtn:hover {

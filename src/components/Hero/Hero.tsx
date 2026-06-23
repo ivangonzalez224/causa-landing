@@ -5,29 +5,18 @@ import qrImg from '../../assets/qrCausaChat.png';
 const Hero = () => {
   const { t } = useTranslation();
 
-  const phoneNumber = "51912391253";
-  const message = "¡Hola Causa! Quiero aprender a hablar español como un local.";
+  const phoneNumber = '51912391253';
+  const message = '¡Hola Causa! Quiero aprender a hablar español como un local.';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
     <section className={styles.hero}>
-      <h1 className={styles.title}>
-        {t('hero.title')}
-      </h1>
-      <p className={styles.subtitle}>
-        {t('hero.subtitle')}
-      </p>
+      <h1 className={styles.title}>{t('hero.title')}</h1>
+      <p className={styles.subtitle}>{t('hero.subtitle')}</p>
 
       <div className={styles.actionContainer}>
-        <a 
-          href={whatsappUrl} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className={styles.ctaLink}
-        >
-          <button className={styles.cta}>
-            {t('hero.cta')}
-          </button>
+        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className={styles.ctaLink}>
+          <button className={styles.cta}>{t('hero.cta')}</button>
         </a>
 
         <div className={styles.qrContainer}>
@@ -35,9 +24,7 @@ const Hero = () => {
           <span className={styles.qrText}>{t('hero.scan_me')}</span>
         </div>
       </div>
-      <p className={styles.trialText}>
-        ✨ {t('hero.trial_text')}
-      </p>
+      <p className={styles.trialText}>✨ {t('hero.trial_text')}</p>
     </section>
   );
 };
