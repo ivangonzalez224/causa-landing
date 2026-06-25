@@ -23,13 +23,13 @@ const Pricing = () => {
           </div>
           <ul className={styles.features}>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.weekly.feat1')}
+              <Check size={18} /> {t('pricing.weekly.feat1')}
             </li>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.weekly.feat2')}
+              <Check size={18} /> {t('pricing.weekly.feat2')}
             </li>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.weekly.feat3')}
+              <Check size={18} /> {t('pricing.weekly.feat3')}
             </li>
           </ul>
           <button className={styles.btn} onClick={() => setShowModal(true)}>
@@ -46,13 +46,13 @@ const Pricing = () => {
           </div>
           <ul className={styles.features}>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.monthly.feat1')}
+              <Check size={18} /> {t('pricing.monthly.feat1')}
             </li>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.monthly.feat2')}
+              <Check size={18} /> {t('pricing.monthly.feat2')}
             </li>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.monthly.feat3')}
+              <Check size={18} /> {t('pricing.monthly.feat3')}
             </li>
           </ul>
           <button className={styles.btn} onClick={() => setShowModal(true)}>
@@ -71,13 +71,13 @@ const Pricing = () => {
           <p className={styles.noCardText}>{t('pricing.no_card')}</p>
           <ul className={styles.features}>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.annual.feat1')}
+              <Check size={18} /> {t('pricing.annual.feat1')}
             </li>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.annual.feat2')}
+              <Check size={18} /> {t('pricing.annual.feat2')}
             </li>
             <li>
-              <Check size={18} color="#D9A05B" /> {t('pricing.annual.feat3')}
+              <Check size={18} /> {t('pricing.annual.feat3')}
             </li>
           </ul>
           <button

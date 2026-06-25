@@ -182,3 +182,8 @@
   background: #1ebe5d;
   transform: translateY(-1px);
 }
+
+.features li svg {
+  color: var(--color-secondary);
+  flex-shrink: 0;
+}

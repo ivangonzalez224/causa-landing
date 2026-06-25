@@ -1,11 +1,15 @@
 :root {
-  /* Tu paleta de colores */
-  --color-primary: #2c4a70; /* Azul profundo (Confianza) */
-  --color-secondary: #d9a05b; /* Dorado (Premium) */
-  --color-bg: #e5e9ec; /* Gris claro (Fondo) */
-  --color-accent: #e63946; /* Rojo (CTA/Acción) */
-  --color-highlight: #f4d35e; /* Amarillo (Diversión) */
+  /* Paleta Causa — derivada del logo */
+  --color-primary: #2db35d; /* Verde Causa */
+  --color-primary-dark: #219a4a; /* Verde oscuro para hovers */
+  --color-primary-light: #e8f8ee; /* Verde muy claro para fondos sutiles */
+  --color-secondary: #f5b731; /* Amarillo del chat */
+  --color-secondary-dark: #e0a020; /* Amarillo oscuro para hovers */
+  --color-bg: #f4faf6; /* Fondo levemente verde */
+  --color-bg-white: #ffffff;
+  --color-accent: #2db35d; /* Verde como acento principal */
   --color-text: #1a1a1a;
+  --color-text-muted: #5a7a65; /* Gris con tono verde para texto secundario */
 
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: var(--color-bg);
