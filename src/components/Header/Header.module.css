@@ -11,6 +11,18 @@
   z-index: 1000;
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  height: 45px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .logo {
   font-size: 1.5rem;
   font-weight: 800;
@@ -44,6 +56,9 @@
   .header {
     padding: 0 20px;
     height: 60px;
+  }
+  .logoImage {
+    height: 35px;
   }
   .nav {
     gap: 10px;

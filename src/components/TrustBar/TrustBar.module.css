@@ -1,7 +1,7 @@
 .trustBar {
-  background-color: #f8f9fa;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  background-color: var(--color-primary-light);
+  border-top: 1px solid rgba(45, 179, 93, 0.15);
+  border-bottom: 1px solid rgba(45, 179, 93, 0.15);
   padding: 20px 0;
   width: 100%;
 }

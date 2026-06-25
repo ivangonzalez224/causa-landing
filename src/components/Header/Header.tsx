@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Header.module.css';
 import { Globe } from 'lucide-react';
-import { Sparkles } from 'lucide-react';
 
 const Header = () => {
   const { i18n } = useTranslation();
@@ -20,8 +19,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logoContainer}>
-        <Sparkles size={28} color="#E63946" fill="#F4D35E" />
-        <span className={styles.logo}>CAUSA</span>
+        <img src="/logoCausa.png" alt="Logo Causa" className={styles.logoImage} />
       </div>
       <nav className={styles.nav}>
         <Globe size={18} color="#2C4A70" />
